@@ -4,7 +4,7 @@ import { useState } from "react";
 import COLORS from "../constants/colors";
 
 function StartGameScreen({ onConfirm }) {
-  const [enteredNumber, setEnteredNumber] = useState("");
+  const [enteredNumber, setEnteredNumber] = useState();
 
   function numberInputHandler(enteredText) {
     setEnteredNumber(enteredText);
