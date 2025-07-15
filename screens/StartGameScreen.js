@@ -72,8 +72,8 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     color: COLORS.accent500,
     marginVertical: 8,
-    fontWeight: "bold",
     textAlign: "center",
+    fontFamily: "open-sans-bold",
   },
   buttonsContainer: {
     flexDirection: "row",
